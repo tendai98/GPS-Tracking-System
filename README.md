@@ -10,7 +10,7 @@
 ```
 Tracker/
 │
-├── client.h          # Header file for handling Wi-Fi client connection
+├── client.h          # Header file for sending data to the API via HTTPS connection
 ├── gps.h             # Header file for GPS module interfacing
 ├── Tracker.ino       # Main Arduino sketch for location tracking
 └── wifi.h            # Header file for Wi-Fi setup
@@ -32,9 +32,8 @@ Tracker/
 Tracker-API/
 │
 ├── app.js            # Main Node.js application file
-├── auth.json         # JSON file for authentication secrets (e.g., API keys)
-├── config.json       # JSON file for configuration settings
-├── firebase.json     # Firebase configuration (if applicable)
+├── auth.json         # JSON file for Firebase Authentication secrets
+├── config.json       # JSON file for Firebase Project Configuration settings
 ├── package.json      # Node.js package dependencies
 ├── package-lock.json # Dependency lock file
 ├── public/           # Directory for the frontend web application
@@ -64,6 +63,4 @@ The API is now up and running, ready to receive location data from the tracker a
 
 - You can extend the frontend in the `public` directory to display location data on a webpage using the Google Maps SDK or any other visualization method of your choice.
 
-- For security, it's important to protect the API with proper authentication and secure communication methods, especially if the location data is sensitive.
-
-- This is a basic setup, and you can expand the functionality by adding features such as real-time tracking, geofencing, and more.
+- This is a basic setup, and you can expand the functionality by adding features such as geofencing, and more.
