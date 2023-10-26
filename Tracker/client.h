@@ -1,7 +1,7 @@
 #include "gps.h"
 
-#define HOST "utrack-console.herokuapp.com"
-#define TRACKER_NODE_ID "Goat-1"
+#define HOST "API_HOSTNAME"
+#define TRACKER_NODE_ID "TRACKER_ID"
 #define HTTPS_PORT 443
 
 WiFiClientSecure client;

@@ -3,10 +3,10 @@ if (typeof firebase === 'undefined') throw new Error('hosting/init-error: Fireba
 
 var firebaseConfig = {
 
-	"apiKey" : "AIzaSyCJLz86jXJKRCKxpVnvxnL8qrQUntCd9vQ",
-	"appId" : "1:542543035627:web:b8f3a60705bea0759f92ae",
-	"authDomain" : "tracking-monitoring-system.firebaseapp.com",
-	"projectId" : "tracking-monitoring-system",
+	"apiKey" : "API_KEY",
+	"appId" : "APP_ID",
+	"authDomain" : "AUTH_DOMAIN",
+	"projectId" : "PROJECT_ID",
 
 };
 
