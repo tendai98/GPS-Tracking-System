@@ -6,6 +6,8 @@ A simple Firebase-based IoT Location tracking system using:
 - Firebase Realtime Database to store and log tracking data
 - A Web App using Google Maps SDK for location
 
+## Project Components
+
 1. **Tracker**: The hardware component responsible for tracking the location.
 2. **Tracker-API**: The Node.js server for receiving, storing, and serving location data.
 
